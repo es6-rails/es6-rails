@@ -27,8 +27,3 @@ Add the es6-rails to your Gemfile:
 ~~~ruby
 gem 'es6-rails'
 ~~~
-
-## Running tests
-
-    $ bundle install
-    $ bundle exec rake test
