@@ -1,2 +1,2 @@
 require 'babel/transpiler'
-require 'es6_rails/template_handler'
+require 'es6/rails/template_handler'
