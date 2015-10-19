@@ -10,6 +10,7 @@ Gem::Specification.new do |s|
   s.description = "Enables use of ES6 in assets, views and inline."
   s.files       = `git ls-files`.split($/)
     'http://rubygems.org'
+  s.homepage    = "https://github.com/es6-rails/es6-rails"
   s.license       = 'MIT'
 
   s.require_paths = ["lib"]
@@ -21,7 +22,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'sprockets-es6',         '~> 0.8', '>= 0.8.1'
 
   s.authors     = ["Cristian Dugacicu"]
-  s.homepage    = ""
   s.email       = 'razorcd@yahoo.com'
 end
 
