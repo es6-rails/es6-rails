@@ -1,4 +1,4 @@
-Copyright (c) 2012 Klaus Zanders
+Copyright (c) 2015 Cristian Dugacicu
 
 MIT License
 
