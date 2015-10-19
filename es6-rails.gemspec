@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |s|
   s.name        = 'es6-rails'
-  s.version     = '0.0.2'
+  s.version     = '0.0.3'
   s.date        = '2015-10-19'
   s.summary     = "ES6 adapter for Rails"
   s.description = "Enables use of ES6 in assets, views and inline."
