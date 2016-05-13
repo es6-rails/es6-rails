@@ -1,5 +1,11 @@
-# ES6-Rails with Babel
-ES6 (EcmaScript 6) adapter for Rails. Use ES6 in the assets, view files and inline.
+# Use ES6 in Rails with Babel everywhere
+ES6 (EcmaScript 2015) adapter for Rails. 
+
+## Use es6-rails in:
+
+- assets
+- views as remote es6 script
+- views as inline html
 
 ## Example app
 
