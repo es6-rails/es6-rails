@@ -1,6 +1,10 @@
 # ES6-Rails with Babel
 ES6 (EcmaScript 6) adapter for Rails. Use ES6 in the assets, view files and inline.
 
+## Example app
+
+[es6-rails-example](https://github.com/es6-rails/es6-rails-example)
+
 ## Use
 Asset pipeline: 
 - add ES6 code in `.es6` files
