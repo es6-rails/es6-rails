@@ -1,7 +1,7 @@
-# Use ES6 in Rails with Babel everywhere
-ES6 (EcmaScript 2015) adapter for Rails. 
+# Use ES6 in Rails everywhere
+ES6 (EcmaScript 2015) adapter for Rails. It transpiles all ES6 code to ES5 (JavaScript) using [ruby-babel-transpiler](https://github.com/babel/ruby-babel-transpiler).
 
-## Use es6-rails in:
+## Write ES6 in:
 
 - assets
 - views as remote es6 script
@@ -12,15 +12,15 @@ ES6 (EcmaScript 2015) adapter for Rails.
 [es6-rails-example](https://github.com/es6-rails/es6-rails-example)
 
 ## Use
-Asset pipeline: 
-- add ES6 code in `.es6` files
+Assets: 
+- add ES6 code as `.es6` files in `/app/assets/javascripts/`
 
-Views:
-- add ES6 code in `.es6` files.
-- also use ERB code in the `.es6` file
+ES6 views:
+- add ES6 code as `.es6` files in `/app/views/` (you can include `erb` code too)
 
-Inline:
-- use with: `<%= es6_transform do %> .. es6 code .. <% end %>`
+HTML views:
+- add ES6 code in any HTML(ERB) file in `/app/views/` using: `<%= es6_transform do %> .. es6 code .. <% end %>`
+
 E.g.:
 ```
 <script>
@@ -32,7 +32,8 @@ E.g.:
 ```
 
 ## Installation
-Add the es6-rails to your Gemfile:
+
+Add the `es6-rails` to your Gemfile:
 
 ~~~ruby
 gem 'es6-rails'
