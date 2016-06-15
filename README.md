@@ -43,3 +43,8 @@ gem 'es6-rails'
 ## Test
 
 - for testing the gem please run the tests in the [es6-rails-example](https://github.com/es6-rails/es6-rails-example) example application with tests all use cases
+
+## Publish
+
+- `gem build es6-rails.gemspec`
+- `gem push es6-rails-0.2.0.gem`

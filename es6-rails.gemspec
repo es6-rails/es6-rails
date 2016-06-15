@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = Es6::Rails::VERSION
   s.summary     = "ES6 adapter for Rails"
   s.description = "Enables use of ES6 in assets, views and inline."
-  s.files       = Dir['lib/**/*'].keep_if{|file| File.file?(file)} + %w(License.txt README.md)
+  s.files       = Dir['lib/**/*'].keep_if{|file| File.file?(file)} + %w(LICENSE.txt README.md)
   s.homepage    = "https://github.com/es6-rails/es6-rails"
   s.license     = 'MIT'
   s.require_paths = ["lib"]
