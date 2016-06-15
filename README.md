@@ -14,6 +14,7 @@ ES6 (EcmaScript 2015) adapter for Rails. It transpiles all ES6 code to ES5 (Java
 ## Use
 Assets: 
 - add ES6 code as `.es6` files in `/app/assets/javascripts/`
+- use rails generator: `rails g es6:assets my_file`
 
 ES6 views:
 - add ES6 code as `.es6` files in `/app/views/` (you can include `erb` code too)
