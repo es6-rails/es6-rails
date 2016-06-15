@@ -5,7 +5,6 @@ require "es6/rails/version"
 Gem::Specification.new do |s|
   s.name        = 'es6-rails'
   s.version     = Es6::Rails::VERSION
-  s.date        = '2015-10-19'
   s.summary     = "ES6 adapter for Rails"
   s.description = "Enables use of ES6 in assets, views and inline."
   s.files       = Dir['lib/**/*'].keep_if{|file| File.file?(file)} + %w(License.txt README.md)
