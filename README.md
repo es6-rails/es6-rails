@@ -38,3 +38,7 @@ Add the `es6-rails` to your Gemfile:
 ~~~ruby
 gem 'es6-rails'
 ~~~
+
+## Test
+
+- for testing the gem please run the tests in the [es6-rails-example](https://github.com/es6-rails/es6-rails-example) example application with tests all use cases
