@@ -1,6 +1,7 @@
 require 'babel/transpiler'
 require 'sprockets'
 require 'sprockets/es6'
+require 'es6js'
 require 'es6/rails/template_handler'
 require 'es6/rails/inline_handler'
 require 'rails/generators'
