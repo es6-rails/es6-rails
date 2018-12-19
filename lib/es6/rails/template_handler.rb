@@ -15,4 +15,5 @@ end
 
 ActiveSupport.on_load(:action_view) do
   ActionView::Template.register_template_handler :es6, Es6::Rails::TemplateHandler
+  # ActionView::Template.register_template_handler :"es6.js", Es6::Rails::TemplateHandler
 end

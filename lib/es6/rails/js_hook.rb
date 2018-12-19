@@ -6,6 +6,7 @@ module Es6
         no_tasks do
           redefine_method :js_template do |source, destination|
             template(source + '.es6', destination + '.es6')
+            template(source + '.es6.js', destination + '.es6.js')
           end
         end
       end
