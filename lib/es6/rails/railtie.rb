@@ -15,6 +15,7 @@ module Es6
       end
 
       initializer 'override js_template hook' do |app|
+        
         if app.config.generators.rails[:javascript_engine] == :es6 ||
           app.config.generators.rails[:javascript_engine] == :"es6.js"
           ::Rails::Generators::NamedBase.send :include, Es6::Rails::JsHook
