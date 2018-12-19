@@ -47,4 +47,4 @@ gem 'es6-rails'
 ## Publish
 
 - `gem build es6-rails.gemspec`
-- `gem push es6-rails-0.2.0.gem`
+- `gem push es6-rails-0.3.5.gem`
